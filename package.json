@@ -1,0 +1,36 @@
+{
+  "name": "nft-swap-poc",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@alch/alchemy-web3": "1.4.2",
+    "@traderxyz/nft-swap-sdk": "0.26.0",
+    "ethers": "5.6.7",
+    "formik": "2.2.9",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "4.0.3",
+    "reset-css": "5.0.1",
+    "sass": "1.52.1",
+    "use-nft": "0.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
